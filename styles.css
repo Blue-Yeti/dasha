@@ -1,0 +1,78 @@
+:root{
+    --clr-accent: #2196F3;
+    --clr-logo-black: #000000;
+    --clr-menu-prime: #212121;
+    --clr-contacts:#757575;
+    --clr-bg-hero: #2F303A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 3px solid red; */
+    padding-left: 15px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header{
+    height: 80px;
+    outline: 1px solid var(--clr-contacts);
+}
+
+.header-container{
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+}
+
+
+.main-nav__list{
+}
+
+.main-nav__link:not(:last-child){
+    margin-right: 50px;
+}
+
+
+.contacts{
+    margin-left: auto;
+}
+
+.contacts__mail{
+    margin-right: 50px;
+}
+
+
+.logo{
+font-family: Raleway;
+margin-right: 93px;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--clr-accent);
+}
+
